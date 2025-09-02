@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/framer-motion/dist/framer-motion.umd.js"></script>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white font-sans">
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center px-6">
+    <h1 class="text-5xl md:text-7xl font-bold tracking-wide mb-4 animate-bounce">LALITHA</h1>
+    <p class="text-lg md:text-2xl text-gray-300">“B.Sc. Mathematics student | Interested in Social Media Marketing & Branding”</p>
+    <a href="#about" class="mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-full shadow-lg transition-all">Explore</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6 md:px-20 bg-gray-900">
+    <h2 class="text-4xl font-bold mb-6 text-center">About Me</h2>
+    <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <img src="IMG-20250902-WA0009.jpg" alt="Profile" class="rounded-2xl shadow-lg hover:scale-105 transition-transform">
+      <p class="text-lg text-gray-300 leading-relaxed">
+        B.Sc. Mathematics student | Interested in Social Media Marketing & Branding
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-6 md:px-20">
+    <h2 class="text-4xl font-bold mb-12 text-center">Project Details</h2>
+    <div class="bg-gray-800 rounded-2xl shadow-lg p-8 max-w-4xl mx-auto">
+      <h3 class="text-2xl font-semibold mb-4">Luxury Pen Social Media Campaign</h3>
+      
+      <p class="text-gray-300 mb-4"><span class="font-semibold text-white">Duration:</span> August – September 2025</p>
+      
+      <h4 class="text-xl font-semibold mb-2">Objective:</h4>
+      <ul class="list-disc list-inside text-gray-300 mb-4">
+        <li>To build brand awareness</li>
+        <li>Highlight craftsmanship</li>
+        <li>Position the luxury pen as a premium lifestyle product among professionals, collectors, and gifting markets</li>
+      </ul>
+
+      <h4 class="text-xl font-semibold mb-2">Strategy:</h4>
+      <ul class="list-disc list-inside text-gray-300 mb-4">
+        <li>Focused content on craftsmanship, lifestyle, exclusivity</li>
+      </ul>
+
+      <h4 class="text-xl font-semibold mb-2">Platforms:</h4>
+      <ul class="list-disc list-inside text-gray-300 mb-4">
+        <li>Instagram</li>
+        <li>LinkedIn</li>
+        <li>Facebook</li>
+      </ul>
+
+      <h4 class="text-xl font-semibold mb-2">Content Mix:</h4>
+      <ul class="list-disc list-inside text-gray-300 mb-4">
+        <li>Reels</li>
+        <li>Carousels</li>
+        <li>Testimonials</li>
+        <li>Polls</li>
+        <li>Storytelling Ads</li>
+      </ul>
+
+      <h4 class="text-xl font-semibold mb-2">Expected Outcome:</h4>
+      <ul class="list-disc list-inside text-gray-300">
+        <li>Increase in brand visibility among high-end customers</li>
+        <li>Higher engagement rates on social media posts</li>
+        <li>Establishment of the pen as a luxury lifestyle symbol</li>
+        <li>Generation of qualified leads & sales inquiries</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact + Resume Section -->
+  <section id="contact" class="py-20 px-6 md:px-20 bg-gray-900">
+    <h2 class="text-4xl font-bold mb-6 text-center">Contact & Resume</h2>
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-lg text-gray-300 mb-4">Email: <span class="text-blue-400">lalitha@example.com</span></p>
+      <p class="text-lg text-gray-300 mb-8">Phone: +91 98765 43210</p>
+      <div class="flex justify-center gap-6">
+        <a href="My_Resume_Clear.pdf" target="_blank" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-full shadow-lg transition-all">View Resume</a>
+        <a href="My_Resume_Clear.pdf" download class="px-6 py-3 bg-green-600 hover:bg-green-700 rounded-full shadow-lg transition-all">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Address Section -->
+  <section id="address" class="py-20 px-6 md:px-20">
+    <h2 class="text-4xl font-bold mb-6 text-center">Address</h2>
+    <div class="max-w-2xl mx-auto text-center text-gray-300">
+      <p>Pudukkottai District</p>
+      <p>Tamil Nadu, India</p>
+      <p class="mt-4">I am open to digital marketing projects, internships, and opportunities to create impactful campaigns.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center bg-black text-gray-400 text-sm">
+    © 2025 LALITHA | All Rights Reserved
+  </footer>
+
+</body>
+</html>
